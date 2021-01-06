@@ -1,0 +1,27 @@
+Ex: 
+    La question d'origine
+    {
+        id:1,
+        title: "Who let's the dog out?",
+        answers: [
+          {number:1, name: "Yes", count: 12},
+          {number:2, name: "No", count: 7},
+          {number:3, name: "OSEF", count: 23},
+        ]
+      }
+      
+      La réponse sélectionnée, c'est 3
+      
+      L'objectif, c'est de recréer une variable newQuestion
+      qui vaudra:
+          
+          
+              {
+        id:1,
+        title: "Who let's the dog out?",
+        answers: [
+          {number:1, name: "Yes", count: 12},
+          {number:2, name: "No", count: 7},
+          {number:3, name: "OSEF", count: 24},
+        ]
+      }
